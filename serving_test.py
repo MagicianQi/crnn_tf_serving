@@ -42,7 +42,7 @@ post_json = {
     }]
 }
 
-# ---------------Build post---------------
+# ---------------Test---------------
 
 t0 = time.time()
 response = requests.post(CRNN_API_URL, data=json.dumps(post_json))
